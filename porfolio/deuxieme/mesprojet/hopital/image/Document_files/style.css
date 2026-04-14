@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    
+}
+main{
+  background-image: url("image/medecins.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1600px auto;
+   
+   padding-top: 100px;
+}
+.rendez_vous{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    
+}
+.rendez_vous div{
+    height: 20vh;
+    background-color: aqua; 
+    margin: 20px;
+    width: 300px;
+}
+.services{
+    display: flex;
+    /* background-color: yellow; */
+    
+    
+}
+.services  img{
+    margin-left: 70px;
+    margin-top: 50px;
+   
+    
+
+
+}
+.services h3{
+    display: flex;
+    /* margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 40px; 
+    ; */
+    justify-content: center; 
+   
+   
+    
+}
+.services div{
+    height: 25vh;
+    background-color: rgb(197, 227,242);
+    margin: 20px;
+    width: 320px;
+}
+
+.soutenir{
+    display: flex;
+    /* background-color: red; */
+    margin-top: 50px;
+    
+}
+.soutenir div{
+    height: 50vh;
+    background-color: aqua; 
+    margin: 20px;
+    width: 50%;
+  
+}
+.soutenir .soutenir_img{
+    background-image: url("image/docteur.jpeg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.temoignage{
+    display: flex;
+    /* background-color:greenyellow; */
+    margin-top: 50px; 
+    
+
+}
+.temoignage div{
+    height: 50vh;
+    background-color: green;
+    margin: 20px;
+    width: 50%;
+  
+}
+.specialité{
+    display: flex;
+    /* background-color: yellow; */
+    margin-top: 6%;
+   
+    
+}
+.specialité div{
+    height: 90vh;
+    background-color: aqua;
+    margin: 0 auto;
+    width: 300px;
+}
+.specialité div section{
+    background-color:black;
+    height: 40vh;
+}
+.pediatrie{
+    background-image: url("image/pediatre.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ophta{
+    background-image: url("image/docteur.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.class{
+    background-image: url("image/produit.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+.medecin{
+    background-image: url("image/sport.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bouton{
+    background-color: red;
+    border-radius: 10px;
+    width: 150px;
+   height: 35px; 
+    margin-left: 20px;
+    text-align: center;
+    /* padding-top: 5px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton:hover{
+   box-shadow: 10px 2px 3px black;
+}
+ .position{
+    position: absolute;
+    /* margin-top: -36%;  */
+    top: 224%;
+    left: 4%; 
+   text-align: center;
+    background-color: darkcyan;
+    width: 100px;
+ 
+    border-radius: 10px;
+    padding: 7px;
+   
+
+
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: blue;
+}

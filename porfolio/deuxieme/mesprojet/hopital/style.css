@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main  .titre{
+    margin: 50px;
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+}
+main  .titre span{
+    font-size: 35px;
+}
+main   .decouvrir{
+    margin-left: 50px;
+    /* margin-top: %; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} 
+
+nav{
+    background-color: rgba(197, 227,242,0.96);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  ;
+   
+  
+ 
+  
+}
+nav ul li  {
+    margin: 12px;
+    display: inline-block; 
+
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    /* padding: 16px; */
+    border-radius: 10px;
+    /* margin-top: 20px;
+
+    position: relative; */
+   
+    
+    
+   
+    
+}
+nav ul .compte1 {
+     width:17vh; 
+
+}
+
+nav ul .compte1 a{
+    position: relative;
+    left: 45px;
+}
+
+nav ul .facture  {
+    width:20vh; 
+    
+}
+nav ul .facture a {
+    position: relative;
+    left: 45px;
+      
+}
+nav ul .mon_don{
+    width:20vh; 
+    background-color: red;
+
+}
+nav ul .mon_don a {
+    position: relative;
+    left: 60px;
+}
+nav ul .burger2 a {
+    position: relative;
+    left: 6px;
+    top: 10px;
+   }
+nav ul .burger2{
+    width:12vh;     
+
+}
+nav ul  .bare2{
+width: 5vh; 
+}
+
+nav  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+nav h1{
+     display: flex;
+     align-items: center; 
+     color: white;
+     font-size: 3em;
+    font-weight: bold;
+
+}
+.carte{
+     position: absolute;
+    top: 35px;
+    left: 51%; 
+
+    
+  
+}
+.heart{
+    position: absolute;
+    top: 27px;
+    right: 23%;
+
+
+    
+}
+.user{
+    position: absolute;
+    top: 35px;
+    right: 35%;
+
+}
+.bare{
+    position: absolute;
+    top: 24px;
+    right: 12%;
+
+}
+.burger{
+    position: absolute;
+    top: 33px;
+    right: 5%;
+
+}
+main{
+  background-image: url("image/medecins.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1600px auto;
+   
+   padding-top: 100px;
+}
+.mon_contenue h1  {
+    color: white;
+    font-size: 3em;
+}
+.mon_contenue .decouvrir{
+    color: white;
+    font-size: 2em;
+   margin-bottom: -10px;
+}
+.special .input1{
+    min-height: 6vh;
+    min-width: 35vh;
+    border: 2px solid darkcyan;
+}
+.med{
+    position: relative;
+    right: 10%;
+    top: 12px;
+}
+.fle{
+    background-color: darkcyan;
+    min-height: 10vh;
+}
+
+ 
+.rendez_vous{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    
+}
+.rendez_vous div{
+    height: 20vh;
+    /* background-color: aqua;  */
+    margin: 20px;
+    width: 300px;
+    margin-left: 50px;
+    
+}
+.services{
+    display: flex;
+    /* background-color: yellow; */
+    
+    
+}
+.services  img{
+    margin-left: 70px;
+    margin-top: 50px;
+   
+    
+
+
+}
+.services h3{
+    display: flex;
+    /* margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 40px; 
+    ; */
+    justify-content: center; 
+   
+   
+    
+}
+.services div{
+    height: 25vh;
+    background-color: rgb(197, 227,242);
+    margin: 20px;
+    width: 320px;
+}
+
+.soutenir{
+    display: flex;
+    /* background-color: red; */
+    margin-top: 50px;
+    
+}
+.soutenir div{
+    height: 50vh;
+   background-color: rgba(0, 0, 0, 0.2); 
+    margin: 20px;
+    width: 50%;
+  
+}
+.soutenir .soutenir_img{
+    background-image: url("image/medecin.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.soutenir .description .text{
+    font-size: 1.7em;
+    margin: 0.5em;
+    
+
+}
+.soutenir .description h2{
+    color: red;
+    border-left: 3px solid darkcyan ;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.soutenir .description span{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0.4em;
+
+}
+.soutenir .description a{
+    margin: 20px;
+}
+.soutenir .description .don{
+    display: inline-block;
+    background-color: red;
+    margin-left: 6%;
+    width: 20%;
+    /* height: 7% ; */
+    color: white;
+    font-size:1em;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 14px;
+    box-shadow: 5px 5px 5px gray;
+ 
+   
+}
+.soutenir .description .don:hover{
+    background-color:#225f5d; 
+}
+.fleche{
+    position: relative;
+    right: 60px;
+    top: 4px
+
+  
+}
+
+
+.temoignage{
+    display: flex;
+    /* background-color:greenyellow; */
+    margin-top: 50px; 
+    
+
+}
+.temoignage div{
+    height: 50vh;
+    /* background-color: green; */
+    margin: 20px;
+    width: 50%;
+  
+}
+.image_tem{
+    background-image: url("image/docteur.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.specialité{
+    display: flex;
+    /* background-color: yellow; */
+    margin-top: 6%;
+   
+    
+}
+.specialité div{
+    height: 90vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 300px;
+}
+.specialité div section{
+    background-color:black;
+    height: 40vh;
+}
+.pediatrie{
+    background-image: url("image/pediatre.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ophta{
+    background-image: url("image/docteur.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.class{
+    background-image: url("image/produit.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+.medecin{
+    background-image: url("image/sport.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bouton{
+    background-color: red;
+    border-radius: 10px;
+    width: 160px;
+    height: 35px; 
+    margin-left: 40%;
+    text-align: center;
+    /* padding-top: 5px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .img{
+    /* margin: 0px;
+    */
+    padding: 15px;
+
+}
+span{
+    position: relative;
+    top : -2.5%
+}
+.triangle img{
+    position: relative;
+    top: -27px;
+    left: 85%;
+}
+
+.bouton:hover{
+   box-shadow: 10px 2px 3px solid black;
+}
+ .position{
+    position: absolute;
+    /* margin-top: -36%;  */
+    top: 199%;
+    left: 4%; 
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+   
+   
+
+
+}
+ .un{
+    position: absolute;
+    /* margin-top: -36%;  */
+    top: 199%;
+     left: 29%;  
+    text-align: center;
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+   
+} 
+
+.trois{
+    position: absolute;
+    /* margin-top: -36%;  */
+    top:199%;
+    left: 79%;  
+    text-align: center;
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+   
+    
+}
+.quatre{
+    position: absolute;
+    /* margin-top: -36%;  */
+    top: 199%;
+    right: 38.5%;  
+    text-align: center;
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+   
+    
+
+}
+.premier{
+margin-left: 20px;
+margin-right: 20px;
+  height: 150px;
+  /* background-color: blue; */
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding: 2px;  
+}
+/* .premier div{
+    width: 40vh;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #722418;
+    
+} */
+.premier .line1{
+    position:relative;
+    bottom:  60px;
+    left: 63px;
+}
+.premier .line2{
+    position: relative;
+    bottom:  80px;
+    left: 1px;
+
+}
+.premier .line3{
+    position: relative;
+    bottom:  100px;
+    left: 8px;
+
+}
+.premier .one{
+    display: flex;
+   /* background-color: white; */
+  
+   height: 70%;
+}
+.premier .one div{
+   padding: 8px;
+ 
+   margin: 5px;
+}
+.premier .one1{
+    padding-top: 50px ;
+}
+.premier .two2{
+    padding-top: 15px;
+}
+
+.deuxieme{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    /* margin-left: -90px; */
+    justify-content: space-evenly; 
+    /* align-items: center; */
+    padding-top: 20px;
+    list-style: none;
+ 
+    
+    
+    
+
+
+}
+.deuxieme .reseau  a{
+    text-decoration: none;
+
+}
+.deuxieme .rejoignez  a{
+    text-decoration: none;
+}
+.deuxieme .reseau  {
+   
+     /* padding-top: 25px; *
+    /* background-color: red; */
+    display: flex;
+   
+ 
+}
+.deuxieme .reseau  .linkedin{
+    /* padding-left: -10%; */
+}
+.deuxieme .reseau span{
+ 
+    /* padding: 20px;  */
+    
+    
+}
+.deuxieme .rejoignez{
+   background-color: rebeccapurple;
+   /* position: relative; */
+    /* margin-top: 20px; */
+   
+
+}
+.deuxieme .contact ul li{
+   /* margin: 15px; 
+    margin-top: 15px;
+    list-style: none; */
+}
+.contact ul li a{
+    text-decoration: none;
+}
+.second{
+    display: flex;
+   /* margin-left: 50px; */
+}
+.second{
+    height: 30vh;
+    background-color: rgb(197, 227,242);
+    margin: 20px;
+    width: 20px;
+    
+}
+
+.un1 {
+    display: flex;
+  
+ 
+    
+  
+}
+.un1 p {
+    /* margin: 10%; */
+    padding: 10px;
+ 
+   
+}
+.trois3{
+   
+    background-color: aqua;
+    display: flex;
+    
+}
+
+
+
+.grand{
+    /* background-color: #225f5d; */
+    width: 90%;
+    height: 30vh;
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    gap: 40px;
+   
+
+}
+.grand .nous p{
+   padding: 18px; 
+
+}
+.grand div{
+    /* border: 1px solid blueviolet; */
+    width: 70%;
+    height: 25vh; 
+    /* background-color: bisque; */
+    
+
+
+}
+ .grand .icons{
+    margin-top: 18px; 
+
+}
+.grand .text{
+    margin-top: 13px;
+}
+.text p{
+    margin-left: 50px;
+    
+}
+.text p a{
+    text-decoration: none;
+}
+.text .presse{
+    position: relative;
+    bottom: 38px; 
+    margin-left: 10px;
+}
+.text .work{
+    position: relative;
+    bottom: 38px; 
+    margin-left: 10px;
+}
+.text .inter{
+    position: relative;
+    bottom: 60px; 
+    margin-left: 10px;
+
+}
+.monpara a{
+    position: relative;
+    text-decoration: none;
+    bottom: 35px;
+    margin-left: 30px;
+}
+.monsecond a{
+    text-decoration: none;
+    position: relative;
+     bottom: 150px;
+     left: 32.7%;
+
+}
+.saint{
+    position: relative;
+     bottom: 115px;
+    
+}
+
+
+footer{
+   
+    width: 100%;
+    height: auto;
+    background-color: darkcyan; 
+   
+}

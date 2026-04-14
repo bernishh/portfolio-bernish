@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenair{
+    height: 350pt;
+    width: auto;
+    /* background-color: blue; */
+    
+    
+}
+.contenair  .titre  ,h1{
+    text-align: center;
+
+
+}
+.contenair h1{
+    color: rgb(255, 136, 0);
+}
+
+.image{
+    height: 200pt;
+    width: auto;
+    background-image: url("https://marketplace.canva.com/EAD_IsMYK_w/1/0/1600w/canva-arc-en-ciel-d%C3%A9grad%C3%A9-rose-orange-et-bleu-zoom-virtuel-arri%C3%A8re-plan-VwJMC37j5jQ.jpg") ;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+}
+.left{
+    height: 80%;
+    width:  505pt;
+    /* background-color: brown; */
+    display: inline-block;
+    margin-left: 10px;
+    list-style-type: none;
+
+   
+}
+
+.rigth{
+    width: 505pt;
+    height: 80%;
+    /* background-color: blueviolet; */
+    float: right;
+    display: inline;
+    
+    
+  
+}
+

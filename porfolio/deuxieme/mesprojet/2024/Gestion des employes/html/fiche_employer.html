@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Fiche Employé</title>
+  <link rel="stylesheet" href="style/fiche_employer.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Menu latéral -->
+    <aside class="sidebar">
+      <h2><i class="fas fa-users-cog"></i> Gestion d'employés</h2>
+      <ul>
+        <li><i class="fas fa-chart-line"><a href="ajoute_service_form.html" class="add-button">Ajouter</a></i> Tableau de bord</li>
+        <li><i class="fas fa-user"><a href="ajoute_service_form.html" class="add-button">Ajouter</a></i> Employés</li>
+        <li><i class="fas fa-briefcase"><a href="ajoute_service_form.html" class="add-button">Ajouter</a></i> Services</li>
+      </ul>
+    </aside>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+      <h1>Fiche Employé</h1>
+
+      <div class="employee-header">
+        <img src="https://via.placeholder.com/120" alt="Photo employé" class="employee-photo">
+        <div class="employee-info">
+          <h2>Jean Dupont</h2>
+          <p class="fonction">RH</p>
+        </div>
+      </div>
+
+      <!-- Informations personnelles -->
+      <h3>Informations personnelles</h3>
+      <table class="info-table">
+        <tr>
+          <th>E-mail</th>
+          <td>jean.dupont@email.com</td>
+        </tr>
+        <tr>
+          <th>Date de naissance</th>
+          <td>15 mars 1985</td>
+        </tr>
+        <tr>
+          <th>Numéro téléphone</th>
+          <td>06 12 34 56 78</td>
+        </tr>
+      </table>
+
+      <!-- Informations professionnelles -->
+      <h3>Informations professionnelles</h3>
+      <table class="info-table">
+        <tr>
+          <th>Matricule</th>
+          <td>EMP0045</td>
+        </tr>
+        <tr>
+          <th>Date d'embauche</th>
+          <td>03 février 2020</td>
+        </tr>
+        <tr>
+          <th>Type de contrat</th>
+          <td>CDI</td>
+        </tr>
+      </table>
+
+      <!-- Documents -->
+      <h3>Documents et justificatifs</h3>
+      <div class="document-section">
+        <label for="document">document_contrat.pdf</label>
+        <input type="file" id="document" name="document_contrat.pdf">
+      </div>
+
+      <!-- Boutons -->
+      <div class="button-group">
+        <button class="btn cancel">Annuler</button>
+        <button class="btn save">Enregistrer</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

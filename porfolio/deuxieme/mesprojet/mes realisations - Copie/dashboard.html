@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tailwind CSS Dashboard</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-blue-500 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-semibold"></h1>
+        <!-- Search Bar -->
+        <div class="flex">
+            <input type="text" placeholder="Search..." class="p-2 rounded-l-md outline-none">
+            <button class="bg-blue-700 text-white p-2 rounded-r-md">Search</button>
+
+        </div>
+        <div class="bg-red- w-1/2 min-h-full flex justify-end items-center align-center">
+            <nav>
+                <ul class="flex gap-9 ">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Voir</a></li>
+                    <li><a href="#">Supprimer</a></li>
+                    <li><a href="#">Modifier</a></li>
+                    
+            </ul> 
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="bg-gray-800 text-white w-64 min-h-screen p-4">
+        <!-- Sidebar content goes here -->
+        
+    </aside>
+
+    <!-- Main Content -->
+    <main class="p-4">
+        <!-- Content goes here -->
+        <div class="bg-white rounded-lg p-6 shadow-md">
+            <h2 class="text-xl font-semibold mb-4">Welcome to the Dashboard!</h2>
+            <!-- Dashboard content goes here -->
+        </div>
+    </main>
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-md w-96">
+            <h2 class="text-2xl font-semibold mb-4">Connexion</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-600 text-sm font-medium mb-2">Nom d'utilisateur</label>
+                    <input type="text" id="username" name="username" class="w-full p-2 border rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-600 text-sm font-medium mb-2">Mot de passe</label>
+                    <input type="password" id="password" name="password" class="w-full p-2 border rounded-md">
+                </div>
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded-md w-full">Se Connecter</button>
+            </form>
+        </div>
+    </div>
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-md w-96">
+            <h2 class="text-2xl font-semibold mb-4">Paiement</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="cardNumber" class="block text-gray-600 text-sm font-medium mb-2">Numéro de Carte</label>
+                    <input type="text" id="cardNumber" name="cardNumber" class="w-full p-2 border rounded-md">
+                </div>
+                <div class="mb-4 flex justify-between">
+                    <div class="w-1/2 mr-2">
+                        <label for="expiryDate" class="block text-gray-600 text-sm font-medium mb-2">Date d'expiration</label>
+                        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" class="w-full p-2 border rounded-md">
+                    </div>
+                    <div class="w-1/2 ml-2">
+                        <label for="cvv" class="block text-gray-600 text-sm font-medium mb-2">CVV</label>
+                        <input type="text" id="cvv" name="cvv" class="w-full p-2 border rounded-md">
+                    </div>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded-md w-full">Payer</button>
+            </form>
+        </div>
+    </div>
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-md w-96">
+            <h2 class="text-2xl font-semibold mb-4">Paiement</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="startDate" class="block text-gray-600 text-sm font-medium mb-2">Date de Début</label>
+                    <input type="date" id="startDate" name="startDate" class="w-full p-2 border rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="endDate" class="block text-gray-600 text-sm font-medium mb-2">Date de Fin</label>
+                    <input type="date" id="endDate" name="endDate" class="w-full p-2 border rounded-md">
+                </div>
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded-md w-full">Payer</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-300 p-4 mt-4">
+        <p class="text-center text-gray-600">© 2024 Tailwind CSS Dashboard</p>
+    </footer>
+    <script>
+        document.getElementById('burgerMenu').addEventListener('click', function () {
+            document.getElementById('navbarLinks').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

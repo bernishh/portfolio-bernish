@@ -1,0 +1,196 @@
+body{
+    background-color: blue;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 20px;
+}
+.first{
+    
+     height: 150px;
+     display: flex;
+     
+     
+
+}
+ .first a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#190f33 ;
+    font-size: 20px;
+    
+   
+
+  
+}
+h1{
+    line-height: 200px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.conteneur{
+    width: 1024px;
+    background-color:white;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 40px;
+    
+}
+img{
+    width: 1024px;
+    height: 500px;
+    
+}
+section{
+    padding: 100px;
+    background-color: aquamarine;
+}
+#un , #trois{
+   
+    background-color: aliceblue;
+}
+#deux , #quatre{
+    
+    background-color: white;
+    
+}
+
+.imgs{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: yellow solid 3px;
+ 
+
+
+}
+.global{
+    
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+ 
+  
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.city{
+    font-style: italic;
+}
+#deux {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 125px 125px 125px;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    
+    
+    
+}
+#deux div{
+    color: black;
+    border: black solid 2px;
+    
+    
+  
+    
+}
+
+/* div{
+    color: black;
+    /* border: black solid 2px;
+    width: 100px;
+    height: 100px; */ */
+/* 
+ */
+.manu{
+    
+    
+ }
+ #trois{ 
+    display: flex;
+ }
+ .left{
+   
+    height: 1000px;
+    width: 512px;
+    border-right: black solid 2px;
+    /* margin-right: 10px; */
+ }
+ .right{
+    
+    height: 500px;
+    width: 512px;
+
+    text-align: center;
+    
+
+ }
+ #quatre{
+    display: flex; 
+    background-color:green;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    float: center;
+
+ }
+ .manu{
+    border: blue solid 1px;
+    background-color: blueviolet;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: -152px;
+    left: -152px;
+    z-index: 3px;
+    
+ }
+ .papa{
+    border: blue solid 1px;
+    background-color: orangered;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 170px;
+ }
+ .rostand{
+    border: black solid 1px;
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top:-180px;
+
+    
+ }
+ .morele{
+    border: blue solid 1px;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+   right: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center
+   ;
+   
+ }
+ 

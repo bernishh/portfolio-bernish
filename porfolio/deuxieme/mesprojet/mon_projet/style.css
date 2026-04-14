@@ -1,0 +1,277 @@
+body{
+ margin-left: 28%;
+ background-color: rgb(65, 45, 45);
+
+
+}
+.nav{
+    display: flex;
+    background-color: rgb(238, 236, 236);
+    height: 110px;
+    width: 98vh;
+    gap: 10px;
+   padding: 5px;
+ align-items: center;
+ /* overflow: auto; */
+
+ 
+
+}
+.nav div{
+    /* height: 100px;
+    width: 150px;
+    */
+  
+  
+   
+}
+.A{
+    /* background-color: aqua; */
+    background-image: url("image/Doumbe.png");
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(255, 255, 255);
+    justify-content: center;
+}
+.B{
+    /* background-color: blue; */
+    border-radius: 60px;
+    border: 3px solid rgb(255, 255, 255);
+    
+}
+.C{
+    /* background-color:yellow; */
+    border-radius: 60px;
+    width: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.D{
+    /* background-color: green; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.E{
+    /* background-color: aqua; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+}
+.F{
+    /* background-color: blue; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+
+.G{
+    /* background-color: aqua; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.H{
+    /* background-color: blue; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.I{
+    /* background-color: aqua; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.J{
+    /* background-color: blue; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.K{
+    /* background-color: blueviolet; */
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+
+.container{
+    height: 950vh;
+    width: 65.2%;
+    box-shadow: 10px 50px 50px rgb(246, 240, 240);
+     background-color:rgb(244, 240, 240); 
+}
+.one{
+    height: 12vh;
+    width: 100%;
+    /* background-color: blue; */
+    /* margin: 20px; */
+    
+}
+.image{
+    display: flex;
+
+  
+
+}
+.image h1{
+    margin-left: 15px;
+}
+.deux{
+    height: 80vh;
+    width: 100%;
+    /* background-color: darkgreen; */
+   
+}
+.produit{
+    height: 50vh;
+    width: 60%;
+    background-color: pink;
+   
+
+
+}
+section{
+    height: 80vh;
+    width: 100vh;
+     /* background-color: pink;  */
+
+ 
+    
+}
+section .image1{
+    height: 80vh;
+    width: 100vh;
+    background-image: url("image/Doumbe.png");
+    background-repeat: no-repeat;
+    background-size: 150vh;
+    background-position: center;
+
+
+}
+section .image2{
+    height: 80vh;
+    width: 100vh;    
+    background-image: url("image/glace.jpg");
+    background-repeat: no-repeat;
+    background-size: 150vh;
+    background-position: center;
+
+}
+section .image3{
+    height: 80vh;
+    width: 100vh;
+    background-image: url("image/Icegreen.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center; */
+
+}
+section .image4{
+    height: 80vh;
+    width: 110vh;
+    background-image: url("image/glace2.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center; */
+
+}
+section .image5{
+    height: 80vh;
+    width: 110vh;
+    background-image: url("image/icecubes.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center; */
+
+}
+section .image6{
+    height: 80vh;
+    width: 110vh;
+    background-image: url("image/IceSpice.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center; */
+
+}
+section .image7{
+    height: 80vh;
+    width: 110vh;
+    background-image: url("image/icecubes.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center;
+  */
+
+}
+
+section .image9{
+    height: 100vh;
+    width: 100vh;
+    background-image: url("image/glace2.png");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    /* background-position: center; */
+
+}
+section .image8{
+    height: 80vh;
+    width: 100vh;
+    background-image: url("image/glace1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: center;
+}
+
+
+.manu{
+    /* background-color: blueviolet; */
+    width: 40%;
+    display: flex;
+    
+   
+  
+}
+.emma{
+    /* background-color: brown; */
+    width: 40px;
+
+}
+.icon{
+    height: 10%;
+    width: 100vh;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coeur{
+    /* background-color: blue; */
+    width: 3%;
+    height: 100%;
+    
+}
+.mess{
+    /* background-color:red; */
+    width: 3%;
+    height: 100%;
+    margin-left: 30px;
+
+}
+.border{
+    border-radius: 100px;
+    width: 5%;
+}

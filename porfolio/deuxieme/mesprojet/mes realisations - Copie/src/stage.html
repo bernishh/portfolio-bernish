@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mon Stage</title>
+</head>
+<body class="bg-gray-100">
+    <header class="w-full bg-gray-300 h-28   flex  items-center  ">
+        <div class="bg-red- w-1/2 min-h-full flex justify-end items-center align-center">
+            <nav>
+                <ul class="flex gap-9 ">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Abonnement</a></li>
+                    <li><a href="#">Paiement</a></li>
+                    <li><a href="#">Client</a></li>
+                    
+            </ul> 
+            </nav>
+        </div>
+    <div class=" w-1/2 min-h-full flex   items-center align-center ml-8">
+        <div class="bg-gray-200 flex  justify-center  ">
+            <div class="container ">
+                <input type="text" placeholder="Rechercher..." class="p-2 border border-gray-300 rounded-md">
+                <button class="ml-2 bg-blue-500 text-white px-4 py-2 rounded-md">Rechercher</button>
+            </div>
+        </div>
+    </div>
+    
+       
+    
+
+    </header>
+    
+    <main class=" w-full ">
+        <div class="flex mx-auto  bg-white-1000 min-h-full w-1/2 min-h-full shadow-md ">
+           <!-- resources/views/clients/create.blade.php -->
+
+
+ 
+
+    <div class="max-w-md mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Ajouter un nouveau client</h2>
+
+        <form action="/clients" method="post">
+            @csrf
+
+            <div class="mb-4">
+                <label for="nom" class="block text-gray-700 text-sm font-bold mb-2">Raison social :</label>
+                <input type="text" name="nom" id="nom" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+
+            <div class="mb-4">
+                <label for="prenom" class="block text-gray-700 text-sm font-bold mb-2">Adresse  :</label>
+                <input type="text" name="prenom" id="prenom" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Numeréos de structure :</label>
+                <input type="email" name="email" id="email" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+
+            <div class="mb-4">
+                <label for="telephone" class="block text-gray-700 text-sm font-bold mb-2">Rccc :</label>
+                <input type="tel" name="telephone" id="telephone" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+            <div class="mb-4">
+                <label for="telephone" class="block text-gray-700 text-sm font-bold mb-2">NIU :</label>
+                <input type="tel" name="telephone" id="telephone" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+            <div class="mb-4">
+                <label for="telephone" class="block text-gray-700 text-sm font-bold mb-2">Adresse du gerant :</label>
+                <input type="tel" name="telephone" id="telephone" class="p-2 border border-gray-300 rounded-md w-full">
+            </div>
+
+            <div class="mb-4">
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Enregistrer</button>
+            </div>
+        </form>
+    </div>
+    
+
+        </div>
+        <div class="class"></div>
+        <div class="class"></div>
+    </main>
+    <footer class="w-full bg-gray-300 h-28 "><h1 class=" flex justify-center ">Réalisaser  par emmanuelle</h1></footer>
+</body>
+</html>

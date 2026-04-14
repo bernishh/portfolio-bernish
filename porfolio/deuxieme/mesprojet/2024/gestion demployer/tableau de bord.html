@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau de bord</title>
+    <link rel="stylesheet" href="tableau de bord.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Menu latéral -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>🧩 RHApp</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Tableau de bord</a></li>
+                    <li><a href="#">Employés</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenu principal -->
+        <main class="main-content">
+            <header>
+                <h1>Tableau de bord</h1>
+                <p class="sub-title">Administrateur RH - <strong>Nom d’utilisateur</strong></p>
+            </header>
+
+            <!-- Boîtes de stats -->
+            <div class="cards">
+                <div class="card">Nombre total d’employés</div>
+                <div class="card">Service RH</div>
+                <div class="card">Service Informatique</div>
+                <div class="card">Ajouter un service</div>
+            </div>
+
+            <!-- Actions -->
+            <div class="actions">
+                <button class="add">Ajouter un employé</button>
+                <button class="export">Exporter</button>
+                <input type="text" placeholder="Rechercher un employé..." class="search-bar">
+            </div>
+        </main>
+    </div>
+</body>
+</html>

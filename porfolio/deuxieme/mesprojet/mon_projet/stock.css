@@ -1,0 +1,366 @@
+
+body{
+    margin: 0;
+   background-color:  rgb(65, 45, 45);
+   color:  rgb(65, 45, 45);
+   
+}
+@media screen and (max-width: 1200px) {
+    
+}
+header{
+
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(255, 254, 254, 0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* background-color:rgb(255, 250, 250); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 5px  5px 20px gray; */
+    position: fixed;
+   z-index: 1; 
+ 
+    
+   
+}
+header h1{
+   margin-left: 10%;
+   color: rgb(23, 23, 63);
+
+}
+header span{
+    color: rgb(65, 31, 31);
+}
+.liste{
+  display: flex;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+   border-left: 3px solid rgb(65, 31, 31);
+   /* border-right: 2px solid black; */
+   border-top: 3px solid rgb(65, 31, 31);
+    /* background-color: brown; */
+}
+.liste li{
+    list-style: none;
+  padding: 15px;
+}
+
+
+main{
+
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+/*premiere div*/
+.one{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.description{
+    margin: 30% 5% 0% 20%;
+    /* background-color: blueviolet;  */
+    height: 25vh;
+
+}
+h4{
+    color: green;
+    /* margin-left: -1%; */
+    
+}
+.span{
+    font-size: 1.5em;
+    color: black;
+   
+}
+.desc{
+    position: relative;
+    bottom: 10%;
+    
+}
+ .commander{
+    text-decoration: none;
+    padding: 5px 12px;
+    background-color: rgb(65, 31, 31);
+    color: white;
+    position: relative;
+    top: -17%;
+    left: 1%;
+}
+.autre
+{
+    padding: 5px 15px;
+    background-color: rgb(1, 1, 1);
+    color: white;
+    position: absolute;
+    right: 82.5%;
+    bottom: 45%;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+}
+.autre:hover{
+    background-color: brown;
+}
+/*contenue de la div one*/
+.left{
+    height:70vh; 
+    width: 50%;
+    /* background-color: chartreuse; */
+
+}
+.right{
+    height:100vh; 
+    width: 50%;
+
+   /* background-image: url("image/img6.png"); */
+   
+}
+.right img{
+    position: absolute;
+    left: 60%;
+    top: 15%;
+}
+.two{
+    height: 120vh;
+    width: auto;
+    background-color:rgba(206, 202, 202, 0.2);
+   
+   
+}
+.logo{
+    width:10px;
+   
+
+    position: relative;
+    right: 47%;
+    background-color: azure;
+}
+
+
+.container{
+    display: flex;
+    width:70%;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    /* position: relative;
+    left: 10%;
+    top: 10%; */
+
+
+}
+
+.deux{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+}
+.deux section{
+    height: 150px;
+    /* background-color: blue; */
+}
+.deux .texte{
+    text-align: center;
+}
+.deux .montant{
+    position: absolute;
+   top: 170%;
+}
+.deux a{
+   text-decoration: none;
+   padding: 11px 63px;
+   background-color:  rgb(65, 45, 45);
+   border-radius: 10px;
+   color: white;
+}
+.deux a:hover{
+    background-color: black;
+   
+}
+.deux img{
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.deux .img{
+    position: relative;
+    left: 57px;
+}
+.trois{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+}
+
+.quatre{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+}
+.cinq{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+}
+.six{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+}
+.sept{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+
+}
+.huit{
+    width: 300px;
+    height: 290px;
+    background-color: rgb(255, 254, 255);
+    box-shadow: 5px  5px 20px gray;
+
+}
+.three{
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+}
+.three .gauche{
+    width: 45%;
+    height: 70vh;
+     /* background-color: blueviolet; */
+}
+.contient{
+    height: 50vh;
+    width: 50%;
+    /* background-color: aquamarine; */
+    position:relative;
+    left: 25%;
+    /* bottom: 10%; */
+   top: 30%;
+
+
+}
+.plus{
+    text-decoration: none;
+    background-color: green;
+    padding: 7px 70px;
+    color: white;
+
+}
+.santé{
+    /* margin: 15% 10% 25% 10%; */
+    /* background-color: rgb(50, 45, 45); */
+   margin-top: 15%;
+   margin-right: 10%;
+}
+.three .droite{
+    width: 60%;
+    height: 70vh;
+    /* background-color: rgb(109, 89, 128); */
+  
+}
+
+.four{
+    height: 70vh;
+    width: 100%;
+    background-color:rgba(206, 202, 202, 0.2);
+    display: flex;
+    justify-content: space-around;
+   
+  
+
+}
+.commentaire{
+    /* background-color: blueviolet; */
+    border: 1px solid gray;
+    width: 25%;
+    height: 35vh;
+    position: relative;
+    top: 25%;
+    border-radius: 3%;
+ 
+   
+}
+.commentaire p{
+    margin-left: 8%;
+   margin: 5%;
+}
+.commentaire section{
+    /* background-color: burlywood; */
+    height: 10vh;
+    display: flex;
+  
+
+}
+.com1{
+border-radius: 50% ;
+background-image: url("image/glace1.jpg");
+width: 20%; 
+height: 70%;
+position: relative;
+top: 15%;
+left: 5%;
+border:2px solid green;
+background-position: center;
+background-size: cover;
+
+}
+.com1 img{
+    border-radius: 50%;
+    
+    
+}
+.com2{
+    height: 10vh;
+    width: 90%;
+    /* background-color: rgb(92, 92, 106); */
+    display: flex;
+   align-items: center;
+   margin-left: 10%;
+}
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(254, 255, 254, 0.9);
+    text-align: center;
+    color:  rgb(65, 45, 45);
+
+}
+footer h1{
+   
+    
+}
+
+/*pour la page voir*/
+.table{
+    position: absolute;
+     bottom: 30%;
+    background-color: rebeccapurple;
+    width: 40%;
+    height: 150vh;
+
+}

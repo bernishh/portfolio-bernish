@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f56b2a;
+    box-shadow: 1px 0px 14px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px 0;
+  }
+  p{
+    margin: 0;
+  }
+  .alert{
+    margin-bottom: 0;
+  }
+  .fa-arrow-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #f56b2a;
+  }
+  header .center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  img.logo {
+    width: 200px;
+  }
+  i {
+    font-size: 2em;
+    color: #f56b2a;
+  }
+  .con{
+    color: #f56b2a;
+  }
+  header span {
+    vertical-align: super;
+  }
+  /* Fin Header */
+  section .ime {
+    width: 200px;
+    height: 200px;
+    margin-top: 210px;
+  }
+  input {
+    border: 1px solid gainsboro;
+  }
+  form .text {
+    width: 99%;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  .texte {
+    font-size: 14px;
+    margin-top: 17px;
+  }
+  form .text2 {
+    width: 99%;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  form a {
+    font-size: 14px;
+  }
+  form .send {
+    width: 100%;
+    color: white;
+    background-color: #4183d7;
+    height: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    border: none;
+    border-radius: 4px;
+  }
+  form {
+    display: block;
+    width: 100%;
+    padding: 5%;
+  }
+  .contenue {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    display: flex;
+    padding: 20px;
+    width: 830px;
+  }
+  section .containe {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+    align-items: center;
+    border-radius: 8px;
+    
+    width: 87%;
+    padding: 20px 2px;
+    box-shadow: 0 -2px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+  .compte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  a {
+    text-decoration: inherit;
+    color: blue;
+  }
+  label {
+    font-weight: bold;
+  }
+  .labels {
+    display: flex;
+    justify-content: space-between;
+  }
+  .labels span {
+    color: gray;
+    font-size: 13px;
+  }  
+  .erreur{
+    color: red;
+  }
